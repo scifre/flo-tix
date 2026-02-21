@@ -45,6 +45,9 @@ A mobile application for scanning QR codes to validate e-tickets. Only registere
     - Enable Firestore Database.
     - Create a collection named `attendees` in Firestore.
     - Download `google-services.json` and place it in `app/` directory.
+3. **Compile the app**:
+    - Open the repo in Android Studio and build the app
+    - Create a release build for better performance and save the apk.
 3. **Set up Google Sheets**:
     - Create a google sheet in this [format](https://docs.google.com/spreadsheets/d/1qLaVNJ6_vVdWjUwSAMqMsGMV0p3UmNtpzeVHwYW4x74/edit?usp=sharing) or copy this one
     - Go to Extensions > AppScript.
